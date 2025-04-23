@@ -1,5 +1,15 @@
 # shadows-protocol
 Desarrollo de videojuego II. Actividad 1
+Videojuego en primera persona. Desarrollado en Unity 6
+## El jugador explora un centro de investigación subterráneo abandonado. Sus enemigos son equipos tecnológicos y su dificultad es resolver puzles.
+
+## Características
+- Movimiento en primera persona
+- IA de enemigos
+- Interacción con el entorno
+- HUD dinámico
+- Laboratorio técnico simulado
+ 
 using UnityEngine; 
 public class PlayerMovement : MonoBehaviour
 {
