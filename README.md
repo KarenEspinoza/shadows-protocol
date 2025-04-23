@@ -10,7 +10,10 @@ Videojuego en primera persona. Desarrollado en Unity 6
 - HUD dinámico
 - Laboratorio técnico simulado
  
-using UnityEngine; 
+//Movimiento del jugador
+
+using UnityEngine;
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
@@ -44,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
 }
 
 //Interacción con el entorno
+
 using UnityEngine;
  
 public class Interact : MonoBehaviour
@@ -73,6 +77,7 @@ public interface IInteractable
 }
 
 // SISTEMA DE COMBATE
+
 using UnityEngine;
 
 public class Gun : MonoBehaviour
@@ -121,6 +126,7 @@ public class Target : MonoBehaviour
 }
 
 //INTELIGENCIA ARTIFICIAL ENEMIGA
+
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -190,6 +196,7 @@ public class PlayerStats : MonoBehaviour
 }
 
 //TERMINAL INTERACTIVO
+
 using UnityEngine;
 
 public class Terminal : MonoBehaviour, IInteractable
